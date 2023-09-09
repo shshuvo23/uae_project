@@ -2,12 +2,10 @@
 @section('home')
     <section id="home" class="bx-home home-section bx-section padding-tb-80 bg-shape-hero">
         <img id="shape1" class="parallax" src="{{ asset('/') }}website/assets/img/bg/shape-1.png" alt="shape">
-        <img id="shape2" class="parallax top" src="{{ asset('/') }}website/assets/img/bg/shape-2.png"
-            alt="shape">
+        <img id="shape2" class="parallax top" src="{{ asset('/') }}website/assets/img/bg/shape-2.png" alt="shape">
         <img id="shape3" class="parallax left top" src="{{ asset('/') }}website/assets/img/bg/shape-3.png"
             alt="shape">
-        <img id="shape4" class="parallax left" src="{{ asset('/') }}website/assets/img/bg/shape-4.png"
-            alt="shape">
+        <img id="shape4" class="parallax left" src="{{ asset('/') }}website/assets/img/bg/shape-4.png" alt="shape">
         <img id="shape5" class="parallax bottom" src="{{ asset('/') }}website/assets/img/bg/shape-5.png"
             alt="shape">
         <div class="container p-0">
@@ -165,12 +163,67 @@
         </div>
     </section>
     <!-- Service section End -->
-
-    
 @endsection
 
 @section('about-us')
     <section id="about" class="bx-about-section bx-section padding-b-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="sec-img" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <img src="{{ asset('/') }}website/assets/img/about/img-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <div class="title">
+                            <h2>About us</h2>
+                            <p>Welcome to Copy Crafter, where the journey of words begins
+                                and stories come to life.
+                                While we may be newcomers to the scene, our passion for the craft and dedication to
+                                excellence know no bounds. Here's the story of how Copy Crafter emerged to reimagine the
+                                world of copywriting:</p>
+                            <button class="btn btn-info">Read More....</button>
+                        </div>
+                        {{-- <div class="personal-detail">
+                            <div class="content">
+                                <div class="left">
+                                    <div class="name pb">
+                                        <span class="info">Full Name :</span>
+                                        <span class="detail">Richard Lord </span>
+                                    </div>
+                                    <div class="age pb">
+                                        <span class="info">Age :</span>
+                                        <span class="detail">30 Years</span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="ph pb">
+                                        <span class="info">Phone No :</span>
+                                        <span class="detail">+00 987654321</span>
+                                    </div>
+
+                                    <div class="email pb">
+                                        <span class="info">Email :</span>
+                                        <span class="detail">example@example.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mail">
+                                <div class="mail">
+                                    <div class="address">
+                                        <span class="info">Address :</span>
+                                        <span class="detail">Ruami mellow moraes,- Salvador, Brazil</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- <section id="about" class="bx-about-section bx-section padding-b-80">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-6">
@@ -239,8 +292,6 @@
                     <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                         <div class="title">
                             <h2>About us</h2>
-                            {{-- <h2>Creativity bleeds from the
-                                pen of<span class="primary-clr"> inspiration</span></h2> --}}
                             <p>Welcome to Copy Crafter, where the journey of words begins
                                 and stories come to life.
                                 While we may be newcomers to the scene, our passion for the craft and dedication to
@@ -254,7 +305,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection
 
 @section('portfolio')
@@ -273,8 +324,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="education bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                         <ul class="timeline">
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000"
-                                data-aos-delay="400">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h5 class="timeline-title">E-commerce Brilliance</h5>
@@ -282,8 +332,7 @@
                                         and transform casual browsers into loyal customers.</p>
                                 </div>
                             </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000"
-                                data-aos-delay="600">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h5 class="timeline-title">Digital Narrative Mastery</h5>
@@ -291,8 +340,7 @@
                                         entertain, and leave readers craving more.</p>
                                 </div>
                             </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000"
-                                data-aos-delay="800">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h5 class="timeline-title">Brand Resonance</h5>
@@ -300,8 +348,7 @@
                                         immerses visitors in your story.</p>
                                 </div>
                             </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000"
-                                data-aos-delay="800">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h5 class="timeline-title">Thought Leadership Manifestos</h5>
@@ -315,8 +362,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="experience bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                         <ul class="timeline" style="margin-top: 85px;">
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000"
-                                data-aos-delay="400">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h5 class="timeline-title">Social Media Enchantment</h5>
@@ -324,8 +370,7 @@
                                         media to create an authentic connection with your audience.</p>
                                 </div>
                             </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000"
-                                data-aos-delay="600">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h5 class="timeline-title">Email Campaigns that Convert
@@ -334,8 +379,7 @@
                                         engagement and conversions.</p>
                                 </div>
                             </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000"
-                                data-aos-delay="800">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h5 class="timeline-title">Technical Wizardry
@@ -364,23 +408,24 @@
     <section id="process" class="bx-about-section bx-section padding-b-80">
         <div class="container">
             <div class="row">
-            <div class="title">
-                <h2><span class="primary-clr mb-2" style="margin-left: 440px;">Process</span></h2>
-                <p>At Copy Crafter, we believe great copywriting is
-                    born from a strategic blend of creativity and method. 
-                    Our meticulously designed process ensures every project is a masterpiece of words:
-                </p>
-            </div>
+                <div class="title">
+                    <h2><span class="primary-clr mb-2" style="margin-left: 440px;">Process</span></h2>
+                    <p>At Copy Crafter, we believe great copywriting is
+                        born from a strategic blend of creativity and method.
+                        Our meticulously designed process ensures every project is a masterpiece of words:
+                    </p>
+                </div>
 
                 <div class="col-md-12 col-lg-6">
                     <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                        
+
                         <div class="personal-detail">
                             <div class="mail">
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Initial Consultation :</span>
-                                        <span class="detail">We kick-start with a conversation to understand your brand, goals, and target audience. This foundation guides every step.</span>
+                                        <span class="detail">We kick-start with a conversation to understand your brand,
+                                            goals, and target audience. This foundation guides every step.</span>
                                     </div>
                                 </div>
                             </div>
@@ -388,7 +433,8 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Thematic Strategy :</span>
-                                        <span class="detail">We create a tailored strategy that aligns with your objectives, ensuring every word serves a purpose.</span>
+                                        <span class="detail">We create a tailored strategy that aligns with your
+                                            objectives, ensuring every word serves a purpose.</span>
                                     </div>
                                 </div>
                             </div>
@@ -396,7 +442,8 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Collaborative Creation :</span>
-                                        <span class="detail">Our team of seasoned writers crafts content that strikes the perfect balance between creativity and precision.</span>
+                                        <span class="detail">Our team of seasoned writers crafts content that strikes the
+                                            perfect balance between creativity and precision.</span>
                                     </div>
                                 </div>
                             </div>
@@ -404,7 +451,8 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Refinement Iteration :</span>
-                                        <span class="detail">Revisions are a crucial part of our process. We fine-tune until every word resonates perfectly, capturing your brand essence.</span>
+                                        <span class="detail">Revisions are a crucial part of our process. We fine-tune
+                                            until every word resonates perfectly, capturing your brand essence.</span>
                                     </div>
                                 </div>
                             </div>
@@ -413,13 +461,14 @@
                 </div>
                 <div class="col-md-12 col-lg-6" style="margin-top: 25px;">
                     <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                        
+
                         <div class="personal-detail">
                             <div class="mail mb-3">
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Quality Assurance :</span>
-                                        <span class="detail">Rigorous proofreading and quality checks ensure your content is impeccable and polished.</span>
+                                        <span class="detail">Rigorous proofreading and quality checks ensure your content
+                                            is impeccable and polished.</span>
                                     </div>
                                 </div>
                             </div>
@@ -427,7 +476,8 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Timely Delivery :</span>
-                                        <span class="detail"> We understand that time is of the essence. Our commitment to deadlines is unwavering, without compromising on quality.</span>
+                                        <span class="detail"> We understand that time is of the essence. Our commitment to
+                                            deadlines is unwavering, without compromising on quality.</span>
                                     </div>
                                 </div>
                             </div>
@@ -435,7 +485,8 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Client Collaboration :</span>
-                                        <span class="detail"> You're an integral part of the process. We value your insights and feedback throughout the journey.</span>
+                                        <span class="detail"> You're an integral part of the process. We value your
+                                            insights and feedback throughout the journey.</span>
                                     </div>
                                 </div>
                             </div>
@@ -453,9 +504,12 @@
             <div class="row">
                 <div class="title">
                     <h2><span class="primary-clr mb-2" style="margin-left: 440px;">Services</span></h2>
-                    <p>At Copy Crafter, our comprehensive suite of unparalleled copywriting services is designed to be the driving force behind your brand's narrative,
-                        making your message resonate, inspire action, and leave an indelible mark. Our words are more than just ink on paper;
-                        they're the architects of stories that shape perceptions and drive results. Explore the breadth of our offerings:
+                    <p>At Copy Crafter, our comprehensive suite of unparalleled copywriting services is designed to be the
+                        driving force behind your brand's narrative,
+                        making your message resonate, inspire action, and leave an indelible mark. Our words are more than
+                        just ink on paper;
+                        they're the architects of stories that shape perceptions and drive results. Explore the breadth of
+                        our offerings:
                     </p>
                 </div>
 
@@ -467,7 +521,10 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Website Content :</span>
-                                        <span class="detail">Your digital presence is the gateway to your brand's identity. Our expert writers sculpt website content that not only informs but captivates, guiding visitors on a journey that sparks genuine connections and drives engagement.</span>
+                                        <span class="detail">Your digital presence is the gateway to your brand's identity.
+                                            Our expert writers sculpt website content that not only informs but captivates,
+                                            guiding visitors on a journey that sparks genuine connections and drives
+                                            engagement.</span>
                                     </div>
                                 </div>
                             </div>
@@ -475,7 +532,9 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Blog Posts and Articles :</span>
-                                        <span class="detail">Fuel your content marketing engine with meticulously crafted blog posts and articles. From thought leadership pieces that establish your authority to insightful guides that educate and empower,
+                                        <span class="detail">Fuel your content marketing engine with meticulously crafted
+                                            blog posts and articles. From thought leadership pieces that establish your
+                                            authority to insightful guides that educate and empower,
                                             our words engage and inspire.</span>
                                     </div>
                                 </div>
@@ -484,8 +543,11 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Social Media Copy :</span>
-                                        <span class="detail">In the fast-paced realm of social media, brevity and impact are paramount. Our social media copywriters infuse every character with intention,
-                                            crafting captions, posts, and stories that resonate with your audience's passions</span>
+                                        <span class="detail">In the fast-paced realm of social media, brevity and impact
+                                            are paramount. Our social media copywriters infuse every character with
+                                            intention,
+                                            crafting captions, posts, and stories that resonate with your audience's
+                                            passions</span>
                                     </div>
                                 </div>
                             </div>
@@ -493,7 +555,9 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Product Descriptions :</span>
-                                        <span class="detail">The bridge between a product and its consumer lies in the description. We breathe life into your offerings with product descriptions that evoke desire,
+                                        <span class="detail">The bridge between a product and its consumer lies in the
+                                            description. We breathe life into your offerings with product descriptions that
+                                            evoke desire,
                                             articulate benefits, and propel conversions.</span>
                                     </div>
                                 </div>
@@ -502,7 +566,8 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Email Campaigns :</span>
-                                        <span class="detail">Step into the inbox with confidence. Our email campaigns are a symphony of persuasive prose,
+                                        <span class="detail">Step into the inbox with confidence. Our email campaigns are a
+                                            symphony of persuasive prose,
                                             ensuring your messages are opened, read, and acted upon.</span>
                                     </div>
                                 </div>
@@ -518,8 +583,10 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Technical Documentation :</span>
-                                        <span class="detail">Communicate complex concepts with clarity. From user manuals to industry whitepapers,
-                                            our technical writing bridges the gap between complexity and comprehension.</span>
+                                        <span class="detail">Communicate complex concepts with clarity. From user manuals
+                                            to industry whitepapers,
+                                            our technical writing bridges the gap between complexity and
+                                            comprehension.</span>
                                     </div>
                                 </div>
                             </div>
@@ -527,7 +594,8 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Brand Messaging :</span>
-                                        <span class="detail">Your brand is more than a logo; it's a story waiting to be told. We craft brand messaging that encapsulates your essence,
+                                        <span class="detail">Your brand is more than a logo; it's a story waiting to be
+                                            told. We craft brand messaging that encapsulates your essence,
                                             resonates with your audience, and drives brand loyalty.</span>
                                     </div>
                                 </div>
@@ -536,7 +604,8 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Podcast Scripting :</span>
-                                        <span class="detail">The power of the spoken word is unparalleled. Our podcast scripting transforms your ideas into captivating narratives that engage,
+                                        <span class="detail">The power of the spoken word is unparalleled. Our podcast
+                                            scripting transforms your ideas into captivating narratives that engage,
                                             entertain, and enlighten your listeners.</span>
                                     </div>
                                 </div>
@@ -545,8 +614,10 @@
                                 <div class="mail">
                                     <div class="address">
                                         <span class="info">Educational Content :</span>
-                                        <span class="detail">Share your expertise with the world. Our educational content spans e-learning modules,
-                                            instructional guides, and workshops that empower your audience with knowledge.</span>
+                                        <span class="detail">Share your expertise with the world. Our educational content
+                                            spans e-learning modules,
+                                            instructional guides, and workshops that empower your audience with
+                                            knowledge.</span>
                                     </div>
                                 </div>
                             </div>
@@ -555,8 +626,139 @@
                 </div>
             </div>
             <div class="title">
-                <p class="p-text" style="margin-top: 47px;">As wordsmiths, our canvas knows no bounds. We're driven by the passion to transcend the ordinary and redefine what's possible with words. Every project is a testament to our commitment to innovation, precision, and the art of storytelling. Let's breathe life into your brand's narrative together. Welcome to a world where words shape destinies. Welcome to Copy Crafter.
+                <p class="p-text" style="margin-top: 47px;">As wordsmiths, our canvas knows no bounds. We're driven by the
+                    passion to transcend the ordinary and redefine what's possible with words. Every project is a testament
+                    to our commitment to innovation, precision, and the art of storytelling. Let's breathe life into your
+                    brand's narrative together. Welcome to a world where words shape destinies. Welcome to Copy Crafter.
                 </p>
+            </div>
+        </div>
+    </section>
+@endsection
+
+@section('image')
+    <section id="portfolio" class="bx-portfolio-section bx-section portfolio padding-tb-80">
+        <div class="container">
+            <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                <h2>Our <span class="primary-clr">Image</span></h2>
+
+            </div>
+            <div class="row m-b-minus-24px">
+                <div class="portfolio-content">
+                    <div>
+                        <div class="row">
+                            {{-- <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="portfolio-tabs">
+                                    <ul>
+                                        <li class="filter" data-filter="all">ALL</li>
+                                        <li class="filter" data-filter=".design">DESIGN</li>
+                                        <li class="filter" data-filter=".development">DEVELOPMENT</li>
+                                        <li class="filter" data-filter=".graphics">GRAPHICS</li>
+                                        <li class="filter" data-filter=".templates">Templates</li>
+                                    </ul>
+                                </div>
+                            </div> --}}
+                            <div class="col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000"
+                                data-aos-delay="600">
+                                <div class="portfolio-content-items">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix graphics templates">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-1.jpg" alt="graphics">
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Nitro - Car Service</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="{{asset('/')}}website/assets/img/portfolio/img-1.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix design">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-2.jpg" alt="design">
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Boros - Artificial
+                                                            Intelligence</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="{{asset('/')}}website/assets/img/portfolio/img-2.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix design">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-3.jpg" alt="design">
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Mila - Virtual Reality</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="{{asset('/')}}website/assets/img/portfolio/img-3.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-4.jpg" alt="development">
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Sen - Hotel Website</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="{{asset('/')}}website/assets/img/portfolio/img-4.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix templates design">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-1.jpg" alt="templates">
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Ekka - eCommerce template</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="{{asset('/')}}website/assets/img/portfolio/img-1.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix development graphics">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-2.jpg" alt="development">
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Bukki - Teck crafts</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="{{asset('/')}}website/assets/img/portfolio/img-2.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
