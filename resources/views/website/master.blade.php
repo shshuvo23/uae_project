@@ -257,8 +257,3 @@
     <script src="{{ asset('/') }}website/assets/js/main.js"></script>
 
 </body>
-<<<<<<< HEAD
-</html>
-=======
-/html>
->>>>>>> a2fc459e20f1de00f3b898723d96d3079ef448f4

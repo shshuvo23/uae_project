@@ -51,7 +51,7 @@
                             <h6>01</h6>
                         </div> --}}
                         <div class="card-description">
-                            <img src="{{ asset('/') }}website/assets/img/service/icon-1.png" alt="">
+                            <img src="{{ asset('/') }}website/assets/img/service/creative-idea.png" alt="">
                             <div class="detailed-txt">
                                 <h5>Unleash Creativity</h5>
                                 <p> Our words have the power to evoke emotions,
@@ -83,7 +83,7 @@
                             <h6>03</h6>
                         </div> --}}
                         <div class="card-description">
-                            <img src="{{ asset('/') }}website/assets/img/service/icon-3.png" alt="">
+                            <img src="{{ asset('/') }}website/assets/img/service/connecting-icon.jpg" alt="">
                             <div class="detailed-txt">
                                 <h5>Connecting Beyond Words</h5>
                                 <p>It's not just about what we write, it's about how your audience connects. We delve
@@ -101,7 +101,7 @@
                             <h6>01</h6>
                         </div> --}}
                         <div class="card-description">
-                            <img src="{{ asset('/') }}website/assets/img/service/icon-1.png" alt="">
+                            <img src="{{ asset('/') }}website/assets/img/service/impact.png" alt="">
                             <div class="detailed-txt">
                                 <h5>Strategic Impact</h5>
                                 <p>
@@ -120,7 +120,7 @@
                             <h6>02</h6>
                         </div> --}}
                         <div class="card-description">
-                            <img src="{{ asset('/') }}website/assets/img/service/icon-2.png" alt="">
+                            <img src="{{ asset('/') }}website/assets/img/service/timely.png" alt="">
                             <div class="detailed-txt">
                                 <h5>Timely Delivery</h5>
                                 <p>
@@ -138,7 +138,7 @@
                             <h6>03</h6>
                         </div> --}}
                         <div class="card-description">
-                            <img src="{{ asset('/') }}website/assets/img/service/icon-3.png" alt="">
+                            <img src="{{ asset('/') }}website/assets/img/service/experience-vector.png" alt="">
                             <div class="detailed-txt">
                                 <h5> Experience Excellence</h5>
                                 <p>
