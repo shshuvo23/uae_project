@@ -166,7 +166,7 @@
 @endsection
 
 @section('about-us')
-    <section id="about" class="bx-about-section bx-section padding-b-80">
+    <section id="about" class="bx-about-section bx-section padding-b-80 border-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-6">
@@ -309,14 +309,14 @@
 @endsection
 
 @section('portfolio')
-    <section id="experience" class="bx-experience-section bx-section padding-tb-80">
+    <section id="experience" class="bx-experience-section bx-section padding-b-80">
         <div class="container">
             <div class="shape-1"></div>
             <div class="shape-2"></div>
             <div class="row mb-m-30">
                 <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                     <h2><span class="primary-clr">Portfolio</span></h2>
-                    <p class="p-text" style="color: black;">At Copy Crafter, our portfolio is a testament to the
+                    <p class="p-text" style="color: black; padding-bottom: 40px;">At Copy Crafter, our portfolio is a testament to the
                         artistry and impact of
                         our words. Each project is a brushstroke in our canvas of storytelling, carefully chosen to
                         inspire, engage, and persuade. Here's a glimpse of our diverse expertise:</p>
@@ -392,7 +392,7 @@
                     </div>
                 </div>
 
-                <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                <div class="title border-bottom" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                     <p class="p-text" style="color: black;">At Copy Crafter, our portfolio is a testament to the
                         artistry and impact of
                         our words. Each project is a brushstroke in our canvas of storytelling, carefully chosen to
@@ -405,12 +405,12 @@
 @endsection
 
 @section('process')
-    <section id="process" class="bx-about-section bx-section padding-b-80">
+    <section id="process" class="bx-about-section bx-section padding-b-80 border-bottom">
         <div class="container">
             <div class="row">
                 <div class="title">
                     <h2><span class="primary-clr mb-2" style="margin-left: 440px;">Process</span></h2>
-                    <p>At Copy Crafter, we believe great copywriting is
+                    <p style="padding-bottom: 20px; color: black;">At Copy Crafter, we believe great copywriting is
                         born from a strategic blend of creativity and method.
                         Our meticulously designed process ensures every project is a masterpiece of words:
                     </p>
@@ -499,7 +499,7 @@
 @endsection
 
 @section('service')
-    <section id="service" class="bx-about-section bx-section padding-b-80">
+    <section id="service" class="bx-about-section bx-section padding-tb-80">
         <div class="container">
             <div class="row">
                 <div class="title">
@@ -625,7 +625,7 @@
                     </div>
                 </div>
             </div>
-            <div class="title">
+            <div class="title border-bottom">
                 <p class="p-text" style="margin-top: 47px;">As wordsmiths, our canvas knows no bounds. We're driven by the
                     passion to transcend the ordinary and redefine what's possible with words. Every project is a testament
                     to our commitment to innovation, precision, and the art of storytelling. Let's breathe life into your
@@ -637,7 +637,7 @@
 @endsection
 
 @section('image')
-    <section id="portfolio" class="bx-portfolio-section bx-section portfolio padding-tb-80">
+    <section id="portfolio" class="bx-portfolio-section bx-section portfolio padding-b-80">
         <div class="container">
             <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                 <h2>Our <span class="primary-clr">Image</span></h2>
