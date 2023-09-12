@@ -65,6 +65,9 @@
                                     <a class="nav-link bx-nav" href="#service">Service</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link bx-nav" href="#faq">FAQ</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link bx-nav" href="#contact">Contact Us</a>
                                 </li>
                             </ul>
@@ -106,6 +109,10 @@
     <!-- Start Portfolio Section -->
     @yield('image')
     <!-- End Portfolio Section -->
+
+     <!-- Start FAQ Section -->
+     @yield('faq')
+     <!-- End FAQ Section -->
 
     <!-- Start News Section -->
     {{-- <section id="news" class="bx-news-section bx-section padding-tb-80 bg-shape">
@@ -257,3 +264,4 @@
     <script src="{{ asset('/') }}website/assets/js/main.js"></script>
 
 </body>
+

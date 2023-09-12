@@ -183,129 +183,14 @@
                                 While we may be newcomers to the scene, our passion for the craft and dedication to
                                 excellence know no bounds. Here's the story of how Copy Crafter emerged to reimagine the
                                 world of copywriting:</p>
-                            <button class="btn btn-info">Read More....</button>
+                            <button class="btn btn-info"><a href="{{route('about.us')}}">Read More....</a></button>
                         </div>
-                        {{-- <div class="personal-detail">
-                            <div class="content">
-                                <div class="left">
-                                    <div class="name pb">
-                                        <span class="info">Full Name :</span>
-                                        <span class="detail">Richard Lord </span>
-                                    </div>
-                                    <div class="age pb">
-                                        <span class="info">Age :</span>
-                                        <span class="detail">30 Years</span>
-                                    </div>
-                                </div>
-                                <div class="right">
-                                    <div class="ph pb">
-                                        <span class="info">Phone No :</span>
-                                        <span class="detail">+00 987654321</span>
-                                    </div>
-
-                                    <div class="email pb">
-                                        <span class="info">Email :</span>
-                                        <span class="detail">example@example.com</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Address :</span>
-                                        <span class="detail">Ruami mellow moraes,- Salvador, Brazil</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    {{-- <section id="about" class="bx-about-section bx-section padding-b-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-6">
-                    <div class="personal-detail">
-                        <div class="content">
-                            <div class="left">
-                                <div class="name pb">
-                                    <span class="info">Igniting a Dream:</span>
-                                    <span class="detail">Copy Crafter was born from a shared dream—to redefine the
-                                        power of words and make them resonate with every heart they touch. We might
-                                        be new, but our aspiration to craft narratives that inspire action is as old
-                                        as storytelling itself. </span>
-                                </div>
-                                <div class="age pb">
-                                    <span class="info">Boundless Enthusiasm:</span>
-                                    <span class="detail">Our team brings together a dynamic mix of fresh talent and
-                                        seasoned wisdom. While we may not have decades of experience, our enthusiasm
-                                        knows no bounds, and our unquenchable thirst to learn and innovate fuels our
-                                        every word.</span>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div class="ph pb">
-                                    <span class="info">Precision Meets Passion:</span>
-                                    <span class="detail">Copy Crafter embodies the perfect fusion of precision and
-                                        passion. We meticulously curate words that don't just convey information but
-                                        elicit emotions, transforming ordinary messages into extraordinary
-                                        experiences.</span>
-                                </div>
-
-                                <div class="email pb">
-                                    <span class="info">A Tapestry of Ideas:</span>
-                                    <span class="detail">We might be newbies, but we're rich in imagination and
-                                        brimming with ideas. Our team thrives on collaboration, weaving a tapestry of
-                                        creativity to capture your brand's essence in every sentence.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="left">
-                                <div class="name pb">
-                                    <span class="info">Driven by Impact: </span>
-                                    <span class="detail">Every project we undertake is a canvas for impact. Our goal
-                                        isn't just to create content; it's to create moments that resonate, messages
-                                        that spark connections, and narratives that leave a lasting imprint.</span>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div class="ph pb">
-                                    <div class="age pb">
-                                        <span class="info">Your Partner in Progress</span>
-                                        <span class="detail">We're not just your copywriters; we're your partners in
-                                            progress. Your success is our success, and every word we craft is infused
-                                            with
-                                            the spirit of collaboration, dedication, and the unwavering belief in the
-                                            power
-                                            of storytelling.</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-12 col-lg-6">
-                    <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                        <div class="title">
-                            <h2>About us</h2>
-                            <p>Welcome to Copy Crafter, where the journey of words begins
-                                and stories come to life.
-                                While we may be newcomers to the scene, our passion for the craft and dedication to
-                                excellence know no bounds. Here's the story of how Copy Crafter emerged to reimagine the
-                                world of copywriting:</p>
-                        </div>
-                        <div class="sec-img" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                            <img src="{{ asset('/') }}website/assets/img/about/img-1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+ 
 @endsection
 
 @section('portfolio')
@@ -316,7 +201,8 @@
             <div class="row mb-m-30">
                 <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                     <h2><span class="primary-clr">Portfolio</span></h2>
-                    <p class="p-text" style="color: black; padding-bottom: 40px;">At Copy Crafter, our portfolio is a testament to the
+                    <p class="p-text" style="color: black; padding-bottom: 40px;">At Copy Crafter, our portfolio is a
+                        testament to the
                         artistry and impact of
                         our words. Each project is a brushstroke in our canvas of storytelling, carefully chosen to
                         inspire, engage, and persuade. Here's a glimpse of our diverse expertise:</p>
@@ -665,13 +551,14 @@
                                         <div class="col-lg-4 col-md-6 col-xs-12 mix graphics templates">
                                             <div class="hovereffect">
                                                 <div class="portfolio-img">
-                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-1.jpg" alt="graphics">
+                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"
+                                                        alt="graphics">
                                                 </div>
                                                 <div class="overlay">
                                                     <div class="overlay-info">
                                                         <a class="info" href="#">Nitro - Car Service</a>
                                                         <a class="info" data-fancybox="gallery"
-                                                            href="{{asset('/')}}website/assets/img/portfolio/img-1.jpg"><i
+                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"><i
                                                                 class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -680,14 +567,15 @@
                                         <div class="col-lg-4 col-md-6 col-xs-12 mix design">
                                             <div class="hovereffect">
                                                 <div class="portfolio-img">
-                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-2.jpg" alt="design">
+                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"
+                                                        alt="design">
                                                 </div>
                                                 <div class="overlay">
                                                     <div class="overlay-info">
                                                         <a class="info" href="#">Boros - Artificial
                                                             Intelligence</a>
                                                         <a class="info" data-fancybox="gallery"
-                                                            href="{{asset('/')}}website/assets/img/portfolio/img-2.jpg"><i
+                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"><i
                                                                 class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -696,13 +584,14 @@
                                         <div class="col-lg-4 col-md-6 col-xs-12 mix design">
                                             <div class="hovereffect">
                                                 <div class="portfolio-img">
-                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-3.jpg" alt="design">
+                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-3.jpg"
+                                                        alt="design">
                                                 </div>
                                                 <div class="overlay">
                                                     <div class="overlay-info">
                                                         <a class="info" href="#">Mila - Virtual Reality</a>
                                                         <a class="info" data-fancybox="gallery"
-                                                            href="{{asset('/')}}website/assets/img/portfolio/img-3.jpg"><i
+                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-3.jpg"><i
                                                                 class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -711,13 +600,14 @@
                                         <div class="col-lg-4 col-md-6 col-xs-12 mix development">
                                             <div class="hovereffect">
                                                 <div class="portfolio-img">
-                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-4.jpg" alt="development">
+                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-4.jpg"
+                                                        alt="development">
                                                 </div>
                                                 <div class="overlay">
                                                     <div class="overlay-info">
                                                         <a class="info" href="#">Sen - Hotel Website</a>
                                                         <a class="info" data-fancybox="gallery"
-                                                            href="{{asset('/')}}website/assets/img/portfolio/img-4.jpg"><i
+                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-4.jpg"><i
                                                                 class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -726,13 +616,14 @@
                                         <div class="col-lg-4 col-md-6 col-xs-12 mix templates design">
                                             <div class="hovereffect">
                                                 <div class="portfolio-img">
-                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-1.jpg" alt="templates">
+                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"
+                                                        alt="templates">
                                                 </div>
                                                 <div class="overlay">
                                                     <div class="overlay-info">
                                                         <a class="info" href="#">Ekka - eCommerce template</a>
                                                         <a class="info" data-fancybox="gallery"
-                                                            href="{{asset('/')}}website/assets/img/portfolio/img-1.jpg"><i
+                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"><i
                                                                 class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -741,13 +632,14 @@
                                         <div class="col-lg-4 col-md-6 col-xs-12 mix development graphics">
                                             <div class="hovereffect">
                                                 <div class="portfolio-img">
-                                                    <img src="{{asset('/')}}website/assets/img/portfolio/img-2.jpg" alt="development">
+                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"
+                                                        alt="development">
                                                 </div>
                                                 <div class="overlay">
                                                     <div class="overlay-info">
                                                         <a class="info" href="#">Bukki - Teck crafts</a>
                                                         <a class="info" data-fancybox="gallery"
-                                                            href="{{asset('/')}}website/assets/img/portfolio/img-2.jpg"><i
+                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"><i
                                                                 class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -758,6 +650,287 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
+
+@section('faq')
+    {{-- <section id="faq" class="bx-experience-section bx-section padding-b-80">
+        <div class="container">
+            <div class="shape-1"></div>
+            <div class="shape-2"></div>
+            <div class="row mb-m-30">
+                <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                    <h2><span class="primary-clr">FAQs</span></h2>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="education bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                        <ul class="timeline">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: Why choose Copy Crafter?</h5>
+                                    <p> A: We're not just writers; we're storytellers who understand the power of words.
+                                        Our commitment to excellence drives every project we undertake.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What industries do you specialize in?</h5>
+                                    <p> A: Our versatile expertise spans industries, including but not limited to technology, lifestyle, finance, and healthcare.
+                                        We adapt our skills to fit your unique brand.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: How do I get started?</h5>
+                                    <p>A: It's simple.
+                                        Reach out to us through our contact form, and let's begin a conversation about your project's needs and goals.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What if I need revisions?</h5>
+                                    <p>A: We pride ourselves on exceeding expectations,
+                                        but if revisions are required, we're dedicated to fine-tuning until you're satisfied.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What's your pricing structure?</h5>
+                                    <p>A: Our pricing is tailored to your project's scope and requirements. Get in touch to receive a personalized quote.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: Can you handle tight deadlines?</h5>
+                                    <p>A: Absolutely! We thrive under pressure and will work closely
+                                        with you to meet your deadlines without compromising quality.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="experience bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <ul class="timeline" style="margin-top: 85px;">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: How does your content approach differ for B2B and B2C clients?</h5>
+                                    <p>A: Our approach is a nuanced dance between business acumen and emotional connection. For B2B, we emphasize value proposition and expertise.
+                                        For B2C, we weave emotions into the narrative to resonate with personal aspirations.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: How do you ensure consistent brand tone across various content types?
+                                    </h5>
+                                    <p>A: We create a brand style guide that outlines voice, tone, and key messaging.
+                                        This guide acts as a compass, ensuring uniformity and consistency in every piece.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: Can you adapt to technical subjects outside your expertise?
+                                    </h5>
+                                    <p>A: Absolutely. We believe in the power of research and collaboration. We dive deep into the subject matter,
+                                        consulting experts when necessary, to ensure accurate and compelling technical content.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What's your strategy for multilingual content?
+                                    </h5>
+                                    <p>A: Our team includes multilingual writers and experts in localization.
+                                        We ensure your content resonates culturally and linguistically, maintaining its impact across languages.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: How do you handle sensitive subjects or controversial topics?
+                                    </h5>
+                                    <p>A: Sensitive topics demand a delicate touch. We engage in thorough research, consult with subject matter experts,
+                                        and craft content that navigates these areas with empathy and respect.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What's your response to shifts in industry trends that require rapid content adjustments?
+                                    </h5>
+                                    <p>A: We embrace change. Our team is agile and ready to pivot swiftly,
+                                        adjusting strategies and content to align with emerging trends and industry developments.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="title border-bottom" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                    <p class="p-text" style="color: black;">Unlock the potential of storytelling with Copy Crafter.
+                        Let's craft narratives that transcend expectations and redefine what words can achieve.
+                        Welcome to a world where communication is an art form.</p>
+                </div>
+
+            </div>
+        </div>
+    </section> --}}
+
+    <section id="faq" class="bx-experience-section bx-section padding-tb-80">
+        <div class="container">
+            <div class="shape-1"></div>
+            <div class="shape-2"></div>
+            <div class="row mb-m-30">
+                <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                    <h2><span class="primary-clr">FAQs</span></h2>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="education bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                        <ul class="timeline">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: Why choose Copy Crafter?</h5>
+                                    <p> A: We're not just writers; we're storytellers who understand the power of words.
+                                        Our commitment to excellence drives every project we undertake.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What industries do you specialize in?</h5>
+                                    <p> A: Our versatile expertise spans industries, including but not limited to
+                                        technology, lifestyle, finance, and healthcare.
+                                        We adapt our skills to fit your unique brand.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: How do I get started?</h5>
+                                    <p>A: It's simple.
+                                        Reach out to us through our contact form, and let's begin a conversation about your
+                                        project's needs and goals.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What if I need revisions?</h5>
+                                    <p>A: We pride ourselves on exceeding expectations,
+                                        but if revisions are required, we're dedicated to fine-tuning until you're
+                                        satisfied.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What's your pricing structure?</h5>
+                                    <p>A: Our pricing is tailored to your project's scope and requirements. Get in touch to
+                                        receive a personalized quote.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: Can you handle tight deadlines?</h5>
+                                    <p>A: Absolutely! We thrive under pressure and will work closely
+                                        with you to meet your deadlines without compromising quality.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What's your response to shifts in industry trends that
+                                        require rapid content adjustments?
+                                    </h5>
+                                    <p>A: We embrace change. Our team is agile and ready to pivot swiftly,
+                                        adjusting strategies and content to align with emerging trends and industry
+                                        developments.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="experience bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <ul class="timeline" style="margin-top: 120px;">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: How does your content approach differ for B2B and B2C
+                                        clients?</h5>
+                                    <p>A: Our approach is a nuanced dance between business acumen and emotional connection.
+                                        For B2B, we emphasize value proposition and expertise.
+                                        For B2C, we weave emotions into the narrative to resonate with personal aspirations.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: How do you ensure consistent brand tone across various
+                                        content types?
+                                    </h5>
+                                    <p>A: We create a brand style guide that outlines voice, tone, and key messaging.
+                                        This guide acts as a compass, ensuring uniformity and consistency in every piece.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: Can you adapt to technical subjects outside your
+                                        expertise?
+                                    </h5>
+                                    <p>A: Absolutely. We believe in the power of research and collaboration. We dive deep
+                                        into the subject matter,
+                                        consulting experts when necessary, to ensure accurate and compelling technical
+                                        content.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: What's your strategy for multilingual content?
+                                    </h5>
+                                    <p>A: Our team includes multilingual writers and experts in localization.
+                                        We ensure your content resonates culturally and linguistically, maintaining its
+                                        impact across languages.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Q: How do you handle sensitive subjects or controversial
+                                        topics?
+                                    </h5>
+                                    <p>A: Sensitive topics demand a delicate touch. We engage in thorough research, consult
+                                        with subject matter experts,
+                                        and craft content that navigates these areas with empathy and respect.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="title border-bottom" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                    <p class="p-text" style="color: black;">Unlock the potential of storytelling with Copy Crafter.
+                        Let's craft narratives that transcend expectations and redefine what words can achieve.
+                        Welcome to a world where communication is an art form.</p>
                 </div>
             </div>
         </div>
