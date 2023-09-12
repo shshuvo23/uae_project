@@ -190,7 +190,7 @@
             </div>
         </div>
     </section>
- 
+
 @endsection
 
 @section('portfolio')
@@ -657,139 +657,7 @@
 @endsection
 
 @section('faq')
-    {{-- <section id="faq" class="bx-experience-section bx-section padding-b-80">
-        <div class="container">
-            <div class="shape-1"></div>
-            <div class="shape-2"></div>
-            <div class="row mb-m-30">
-                <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                    <h2><span class="primary-clr">FAQs</span></h2>
-
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="education bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
-                        <ul class="timeline">
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: Why choose Copy Crafter?</h5>
-                                    <p> A: We're not just writers; we're storytellers who understand the power of words.
-                                        Our commitment to excellence drives every project we undertake.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: What industries do you specialize in?</h5>
-                                    <p> A: Our versatile expertise spans industries, including but not limited to technology, lifestyle, finance, and healthcare.
-                                        We adapt our skills to fit your unique brand.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: How do I get started?</h5>
-                                    <p>A: It's simple.
-                                        Reach out to us through our contact form, and let's begin a conversation about your project's needs and goals.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: What if I need revisions?</h5>
-                                    <p>A: We pride ourselves on exceeding expectations,
-                                        but if revisions are required, we're dedicated to fine-tuning until you're satisfied.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: What's your pricing structure?</h5>
-                                    <p>A: Our pricing is tailored to your project's scope and requirements. Get in touch to receive a personalized quote.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: Can you handle tight deadlines?</h5>
-                                    <p>A: Absolutely! We thrive under pressure and will work closely
-                                        with you to meet your deadlines without compromising quality.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="experience bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                        <ul class="timeline" style="margin-top: 85px;">
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: How does your content approach differ for B2B and B2C clients?</h5>
-                                    <p>A: Our approach is a nuanced dance between business acumen and emotional connection. For B2B, we emphasize value proposition and expertise.
-                                        For B2C, we weave emotions into the narrative to resonate with personal aspirations.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: How do you ensure consistent brand tone across various content types?
-                                    </h5>
-                                    <p>A: We create a brand style guide that outlines voice, tone, and key messaging.
-                                        This guide acts as a compass, ensuring uniformity and consistency in every piece.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: Can you adapt to technical subjects outside your expertise?
-                                    </h5>
-                                    <p>A: Absolutely. We believe in the power of research and collaboration. We dive deep into the subject matter,
-                                        consulting experts when necessary, to ensure accurate and compelling technical content.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: What's your strategy for multilingual content?
-                                    </h5>
-                                    <p>A: Our team includes multilingual writers and experts in localization.
-                                        We ensure your content resonates culturally and linguistically, maintaining its impact across languages.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: How do you handle sensitive subjects or controversial topics?
-                                    </h5>
-                                    <p>A: Sensitive topics demand a delicate touch. We engage in thorough research, consult with subject matter experts,
-                                        and craft content that navigates these areas with empathy and respect.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Q: What's your response to shifts in industry trends that require rapid content adjustments?
-                                    </h5>
-                                    <p>A: We embrace change. Our team is agile and ready to pivot swiftly,
-                                        adjusting strategies and content to align with emerging trends and industry developments.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="title border-bottom" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                    <p class="p-text" style="color: black;">Unlock the potential of storytelling with Copy Crafter.
-                        Let's craft narratives that transcend expectations and redefine what words can achieve.
-                        Welcome to a world where communication is an art form.</p>
-                </div>
-
-            </div>
-        </div>
-    </section> --}}
-
-    <section id="faq" class="bx-experience-section bx-section padding-tb-80">
+    <section id="faq" class="bx-experience-section bx-section padding-b-80">
         <div class="container">
             <div class="shape-1"></div>
             <div class="shape-2"></div>
