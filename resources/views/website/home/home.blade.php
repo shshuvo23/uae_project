@@ -183,14 +183,13 @@
                                 While we may be newcomers to the scene, our passion for the craft and dedication to
                                 excellence know no bounds. Here's the story of how Copy Crafter emerged to reimagine the
                                 world of copywriting:</p>
-                            <button class="btn btn-info"><a href="{{route('about.us')}}">Read More....</a></button>
+                            <button class="btn btn-info"><a href="{{ route('about.us') }}">Read More....</a></button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 @endsection
 
 @section('portfolio')
@@ -291,88 +290,101 @@
 @endsection
 
 @section('process')
-    <section id="process" class="bx-about-section bx-section padding-b-80 border-bottom">
+    <section id="process" class="bx-portfolio-section bx-section portfolio padding-b-80 border-bottom">
         <div class="container">
             <div class="row">
                 <div class="title">
-                    <h2><span class="primary-clr mb-2" style="margin-left: 440px;">Process</span></h2>
+                    <h2><span class="primary-clr mb-2">Process</span></h2>
                     <p style="padding-bottom: 20px; color: black;">At Copy Crafter, we believe great copywriting is
                         born from a strategic blend of creativity and method.
                         Our meticulously designed process ensures every project is a masterpiece of words:
                     </p>
                 </div>
 
-                <div class="col-md-12 col-lg-6">
-                    <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-
-                        <div class="personal-detail">
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Initial Consultation :</span>
-                                        <span class="detail">We kick-start with a conversation to understand your brand,
-                                            goals, and target audience. This foundation guides every step.</span>
+                <div class="process-body">
+                    <div class="row mb-3">
+                        <div class="col-lg-3">
+                            <div class="card-1">
+                                <div class="card-header">
+                                    <div class="title fw-bold center">Initial Consultation</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="descr">We kick-start with a conversation to understand your brand,
+                                        goals, and target audience. This foundation guides every step.
                                     </div>
                                 </div>
                             </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Thematic Strategy :</span>
-                                        <span class="detail">We create a tailored strategy that aligns with your
-                                            objectives, ensuring every word serves a purpose.</span>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card-1">
+                                <div class="card-header">
+                                    <div class="title fw-bold center">Thematic Strategy</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="descr">We create a tailored strategy that aligns with your
+                                        objectives, ensuring every word serves a purpose.
                                     </div>
                                 </div>
                             </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Collaborative Creation :</span>
-                                        <span class="detail">Our team of seasoned writers crafts content that strikes the
-                                            perfect balance between creativity and precision.</span>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card-1">
+                                <div class="card-header">
+                                    <div class="title fw-bold center">Collaborative Creation</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="descr">Our team of seasoned writers crafts content that strikes the
+                                        perfect balance between creativity and precision.
                                     </div>
                                 </div>
                             </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Refinement Iteration :</span>
-                                        <span class="detail">Revisions are a crucial part of our process. We fine-tune
-                                            until every word resonates perfectly, capturing your brand essence.</span>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card-1">
+                                <div class="card-header">
+                                    <div class="title fw-bold center">Refinement Iteration</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="descr">Revisions are a crucial part of our process. We fine-tune
+                                        until every word resonates perfectly, capturing your brand essence.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-12 col-lg-6" style="margin-top: 25px;">
-                    <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-
-                        <div class="personal-detail">
-                            <div class="mail mb-3">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Quality Assurance :</span>
-                                        <span class="detail">Rigorous proofreading and quality checks ensure your content
-                                            is impeccable and polished.</span>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3">
+                            <div class="card-1">
+                                <div class="card-header">
+                                    <div class="title fw-bold center">Quality Assurance</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="descr">Rigorous proofreading and quality checks ensure your content
+                                        is impeccable and polished.
                                     </div>
                                 </div>
                             </div>
-                            <div class="mail mb-3">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Timely Delivery :</span>
-                                        <span class="detail"> We understand that time is of the essence. Our commitment to
-                                            deadlines is unwavering, without compromising on quality.</span>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card-1">
+                                <div class="card-header">
+                                    <div class="title fw-bold center">Timely Delivery</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="descr">We understand that time is of the essence. Our commitment to
+                                        deadlines is unwavering, without compromising on quality.
                                     </div>
                                 </div>
                             </div>
-                            <div class="mail mb-2">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Client Collaboration :</span>
-                                        <span class="detail"> You're an integral part of the process. We value your
-                                            insights and feedback throughout the journey.</span>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card-1">
+                                <div class="card-header">
+                                    <div class="title fw-bold center">Client Collaboration</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="descr">You're an integral part of the process. We value your
+                                        insights and feedback throughout the journey.
                                     </div>
                                 </div>
                             </div>
@@ -385,127 +397,162 @@
 @endsection
 
 @section('service')
-    <section id="service" class="bx-about-section bx-section padding-tb-80">
+    <section id="service" class="bx-portfolio-section bx-section portfolio padding-tb-80">
         <div class="container">
+            <div class="title justify-content-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                <h2>Our <span class="primary-clr">Services</span></h2>
+                <p>At Copy Crafter, our comprehensive suite of unparalleled copywriting services is designed to be the
+                    driving force behind your brand's narrative,
+                    making your message resonate, inspire action, and leave an indelible mark. Our words are more than
+                    just ink on paper;
+                    they're the architects of stories that shape perceptions and drive results. Explore the breadth of
+                    our offerings:
+                </p>
+            </div>
             <div class="row">
-                <div class="title">
-                    <h2><span class="primary-clr mb-2" style="margin-left: 440px;">Services</span></h2>
-                    <p>At Copy Crafter, our comprehensive suite of unparalleled copywriting services is designed to be the
-                        driving force behind your brand's narrative,
-                        making your message resonate, inspire action, and leave an indelible mark. Our words are more than
-                        just ink on paper;
-                        they're the architects of stories that shape perceptions and drive results. Explore the breadth of
-                        our offerings:
-                    </p>
-                </div>
-
-                <div class="col-md-12 col-lg-6">
-                    <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-
-                        <div class="personal-detail">
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Website Content :</span>
-                                        <span class="detail">Your digital presence is the gateway to your brand's identity.
-                                            Our expert writers sculpt website content that not only informs but captivates,
-                                            guiding visitors on a journey that sparks genuine connections and drives
-                                            engagement.</span>
-                                    </div>
-                                </div>
+                <div class="row ptb-4">
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header pb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/web-content.png"
+                                        alt=""></div>
+                                <h5>Website Content</h5>
                             </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Blog Posts and Articles :</span>
-                                        <span class="detail">Fuel your content marketing engine with meticulously crafted
-                                            blog posts and articles. From thought leadership pieces that establish your
-                                            authority to insightful guides that educate and empower,
-                                            our words engage and inspire.</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Social Media Copy :</span>
-                                        <span class="detail">In the fast-paced realm of social media, brevity and impact
-                                            are paramount. Our social media copywriters infuse every character with
-                                            intention,
-                                            crafting captions, posts, and stories that resonate with your audience's
-                                            passions</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Product Descriptions :</span>
-                                        <span class="detail">The bridge between a product and its consumer lies in the
-                                            description. We breathe life into your offerings with product descriptions that
-                                            evoke desire,
-                                            articulate benefits, and propel conversions.</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Email Campaigns :</span>
-                                        <span class="detail">Step into the inbox with confidence. Our email campaigns are a
-                                            symphony of persuasive prose,
-                                            ensuring your messages are opened, read, and acted upon.</span>
-                                    </div>
-                                </div>
+                            <div class="card-body">
+                                <p class="text-muted">Your digital presence is the gateway to your brand's identity.
+                                    Our expert writers sculpt website content that not only informs but captivates,
+                                    guiding visitors on a journey that sparks genuine connections and drives
+                                    engagement.
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-12 col-lg-6" style="margin-top: 25px;">
-                    <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
 
-                        <div class="personal-detail">
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Technical Documentation :</span>
-                                        <span class="detail">Communicate complex concepts with clarity. From user manuals
-                                            to industry whitepapers,
-                                            our technical writing bridges the gap between complexity and
-                                            comprehension.</span>
-                                    </div>
-                                </div>
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header bg-color pb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/blog-article.png"
+                                        alt=""></div>
+                                <h5>Blog Posts and Articles</h5>
                             </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Brand Messaging :</span>
-                                        <span class="detail">Your brand is more than a logo; it's a story waiting to be
-                                            told. We craft brand messaging that encapsulates your essence,
-                                            resonates with your audience, and drives brand loyalty.</span>
-                                    </div>
-                                </div>
+                            <div class="card-body">
+                                <p class="text-muted">Fuel your content marketing engine with meticulously crafted
+                                    blog posts and articles. From thought leadership pieces that establish your
+                                    authority to insightful guides that educate and empower,
+                                    our words engage and inspire.
+                                </p>
                             </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Podcast Scripting :</span>
-                                        <span class="detail">The power of the spoken word is unparalleled. Our podcast
-                                            scripting transforms your ideas into captivating narratives that engage,
-                                            entertain, and enlighten your listeners.</span>
-                                    </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header bg-colorpb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/copy.png" alt="">
                                 </div>
+                                <h5>Social Media Copy</h5>
                             </div>
-                            <div class="mail">
-                                <div class="mail">
-                                    <div class="address">
-                                        <span class="info">Educational Content :</span>
-                                        <span class="detail">Share your expertise with the world. Our educational content
-                                            spans e-learning modules,
-                                            instructional guides, and workshops that empower your audience with
-                                            knowledge.</span>
-                                    </div>
+                            <div class="card-body">
+                                <p class="text-muted">In the fast-paced realm of social media, brevity and impact
+                                    are paramount. Our social media copywriters infuse every character with
+                                    intention,
+                                    crafting captions, posts, and stories that resonate with your audience's
+                                    passions
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header bg-color pb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/product-description.png"
+                                        alt=""></div>
+                                <h5>Product Descriptions</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-muted">The bridge between a product and its consumer lies in the
+                                    description. We breathe life into your offerings with product descriptions that
+                                    evoke desire,
+                                    articulate benefits, and propel conversions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header bg-color pb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/email.png" alt="">
                                 </div>
+                                <h5>Email Campaigns</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-muted">Step into the inbox with confidence. Our email campaigns are a
+                                    symphony of persuasive prose,
+                                    ensuring your messages are opened, read, and acted upon.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header bg-color pb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/documention.png"
+                                        alt=""></div>
+                                <h5>Technical Documentation</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-muted">Communicate complex concepts with clarity. From user manuals
+                                    to industry whitepapers,
+                                    our technical writing bridges the gap between complexity and
+                                    comprehension.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header bg-color pb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/brand-messaging.png"
+                                        alt=""></div>
+                                <h5>Brand Messaging</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-muted">Your brand is more than a logo; it's a story waiting to be
+                                    told. We craft brand messaging that encapsulates your essence,
+                                    resonates with your audience, and drives brand loyalty.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header bg-color pb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/podcast-scripting.png"
+                                        alt=""></div>
+                                <h5>Podcast Scripting</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-muted">The power of the spoken word is unparalleled. Our podcast
+                                    scripting transforms your ideas into captivating narratives that engage,
+                                    entertain, and enlighten your listeners.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center rounded-0 border-0">
+                            <div class="card-header bg-color pb-3 rounded-0">
+                                <div><img src="{{ asset('/') }}website/assets/img/service/education.png"
+                                        alt=""></div>
+                                <h5>Educational Content</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-muted">Share your expertise with the world. Our educational content
+                                    spans e-learning modules,
+                                    instructional guides, and workshops that empower your audience with
+                                    knowledge.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -517,140 +564,6 @@
                     to our commitment to innovation, precision, and the art of storytelling. Let's breathe life into your
                     brand's narrative together. Welcome to a world where words shape destinies. Welcome to Copy Crafter.
                 </p>
-            </div>
-        </div>
-    </section>
-@endsection
-
-@section('image')
-    <section id="portfolio" class="bx-portfolio-section bx-section portfolio padding-b-80">
-        <div class="container">
-            <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                <h2>Our <span class="primary-clr">Image</span></h2>
-
-            </div>
-            <div class="row m-b-minus-24px">
-                <div class="portfolio-content">
-                    <div>
-                        <div class="row">
-                            {{-- <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
-                                <div class="portfolio-tabs">
-                                    <ul>
-                                        <li class="filter" data-filter="all">ALL</li>
-                                        <li class="filter" data-filter=".design">DESIGN</li>
-                                        <li class="filter" data-filter=".development">DEVELOPMENT</li>
-                                        <li class="filter" data-filter=".graphics">GRAPHICS</li>
-                                        <li class="filter" data-filter=".templates">Templates</li>
-                                    </ul>
-                                </div>
-                            </div> --}}
-                            <div class="col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000"
-                                data-aos-delay="600">
-                                <div class="portfolio-content-items">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-xs-12 mix graphics templates">
-                                            <div class="hovereffect">
-                                                <div class="portfolio-img">
-                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"
-                                                        alt="graphics">
-                                                </div>
-                                                <div class="overlay">
-                                                    <div class="overlay-info">
-                                                        <a class="info" href="#">Nitro - Car Service</a>
-                                                        <a class="info" data-fancybox="gallery"
-                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"><i
-                                                                class="fa-solid fa-arrow-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-12 mix design">
-                                            <div class="hovereffect">
-                                                <div class="portfolio-img">
-                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"
-                                                        alt="design">
-                                                </div>
-                                                <div class="overlay">
-                                                    <div class="overlay-info">
-                                                        <a class="info" href="#">Boros - Artificial
-                                                            Intelligence</a>
-                                                        <a class="info" data-fancybox="gallery"
-                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"><i
-                                                                class="fa-solid fa-arrow-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-12 mix design">
-                                            <div class="hovereffect">
-                                                <div class="portfolio-img">
-                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-3.jpg"
-                                                        alt="design">
-                                                </div>
-                                                <div class="overlay">
-                                                    <div class="overlay-info">
-                                                        <a class="info" href="#">Mila - Virtual Reality</a>
-                                                        <a class="info" data-fancybox="gallery"
-                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-3.jpg"><i
-                                                                class="fa-solid fa-arrow-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-12 mix development">
-                                            <div class="hovereffect">
-                                                <div class="portfolio-img">
-                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-4.jpg"
-                                                        alt="development">
-                                                </div>
-                                                <div class="overlay">
-                                                    <div class="overlay-info">
-                                                        <a class="info" href="#">Sen - Hotel Website</a>
-                                                        <a class="info" data-fancybox="gallery"
-                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-4.jpg"><i
-                                                                class="fa-solid fa-arrow-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-12 mix templates design">
-                                            <div class="hovereffect">
-                                                <div class="portfolio-img">
-                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"
-                                                        alt="templates">
-                                                </div>
-                                                <div class="overlay">
-                                                    <div class="overlay-info">
-                                                        <a class="info" href="#">Ekka - eCommerce template</a>
-                                                        <a class="info" data-fancybox="gallery"
-                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"><i
-                                                                class="fa-solid fa-arrow-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-12 mix development graphics">
-                                            <div class="hovereffect">
-                                                <div class="portfolio-img">
-                                                    <img src="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"
-                                                        alt="development">
-                                                </div>
-                                                <div class="overlay">
-                                                    <div class="overlay-info">
-                                                        <a class="info" href="#">Bukki - Teck crafts</a>
-                                                        <a class="info" data-fancybox="gallery"
-                                                            href="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"><i
-                                                                class="fa-solid fa-arrow-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -799,6 +712,69 @@
                     <p class="p-text" style="color: black;">Unlock the potential of storytelling with Copy Crafter.
                         Let's craft narratives that transcend expectations and redefine what words can achieve.
                         Welcome to a world where communication is an art form.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
+
+@section('image')
+    <section id="portfolio" class="bx-portfolio-section bx-section portfolio padding-b-80">
+        <div class="container">
+            <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                <h2>Our <span class="primary-clr">Image</span></h2>
+
+            </div>
+            <div class="row m-b-minus-24px">
+                <div class="portfolio-content">
+                    <div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000"
+                                data-aos-delay="600">
+                                <div class="portfolio-content-items">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-4 col-md-6 col-xs-12 mix graphics templates">
+                                                    <div class="hovereffect">
+                                                        <div class="portfolio-img">
+                                                            <img src="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"
+                                                                alt="graphics">
+                                                        </div>
+                                                        <div class="overlay">
+                                                            <div class="overlay-info">
+                                                                <a class="info" href="#">Nitro - Car Service</a>
+                                                                <a class="info" data-fancybox="gallery"
+                                                                    href="{{ asset('/') }}website/assets/img/portfolio/img-1.jpg"><i
+                                                                        class="fa-solid fa-arrow-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-xs-12 mix design">
+                                                    <div class="hovereffect">
+                                                        <div class="portfolio-img">
+                                                            <img src="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"
+                                                                alt="design">
+                                                        </div>
+                                                        <div class="overlay">
+                                                            <div class="overlay-info">
+                                                                <a class="info" href="#">Boros - Artificial
+                                                                    Intelligence</a>
+                                                                <a class="info" data-fancybox="gallery"
+                                                                    href="{{ asset('/') }}website/assets/img/portfolio/img-2.jpg"><i
+                                                                        class="fa-solid fa-arrow-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

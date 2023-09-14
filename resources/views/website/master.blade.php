@@ -40,7 +40,7 @@
             <div class="nav-sec padding-b-50">
                 <nav class="navbar navbar-expand-lg navbar-dark">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="{{route('home')}}"><img
+                        <a class="navbar-brand" href="{{ route('home') }}"><img
                                 src="{{ asset('/') }}website/assets/img/logo/logo.png" alt="logo"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -105,14 +105,13 @@
     @yield('service')
 
     <!-- End About section -->
+    <!-- Start FAQ Section -->
+    @yield('faq')
+    <!-- End FAQ Section -->
 
     <!-- Start Portfolio Section -->
     @yield('image')
     <!-- End Portfolio Section -->
-
-     <!-- Start FAQ Section -->
-     @yield('faq')
-     <!-- End FAQ Section -->
 
     <!-- Start News Section -->
     {{-- <section id="news" class="bx-news-section bx-section padding-tb-80 bg-shape">
@@ -264,4 +263,3 @@
     <script src="{{ asset('/') }}website/assets/js/main.js"></script>
 
 </body>
-

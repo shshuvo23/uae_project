@@ -1842,6 +1842,55 @@ header form .fa-solid {
 .bx-contact-section .custom-btn {
   margin-top: 30px;
 }
+.card-1 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 300px; /* Set a fixed height for the cards */
+    overflow: hidden;
+}
 
+.card-1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    background-color: white;
+    color: #c95bba;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.descr {
+    font-size: 16px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(12, 177, 81, 0.2);
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 350px; /*Set a fixed height for the cards */
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
 /** End Contact Section **/
 /*# sourceMappingURL=style.css.map */
